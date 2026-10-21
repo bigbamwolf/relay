@@ -9,7 +9,7 @@ relay "summarize the open TODOs in this repo"
 ```
 
 ```
-[RELAY H2 claude-sonnet-5]
+[RELAY H2 claude-sonnet-5-5]
 ...the answer...
 ```
 
@@ -107,7 +107,7 @@ All optional, all environment variables:
 
 | Variable | Default | What it does |
 |---|---|---|
-| `RELAY_LADDER` | `claude-opus-5,claude-sonnet-5,claude-haiku-4-5-20251001` | comma list of models, strongest first |
+| `RELAY_LADDER` | `claude-opus-5-5,claude-sonnet-5-5,claude-haiku-4-5-20251001` | comma list of models, strongest first |
 | `RELAY_CLAUDE_BIN` | `which claude` | path to the Claude Code CLI |
 | `RELAY_CWD` | current dir | working dir each attempt runs in |
 | `RELAY_PERMISSION_MODE` | unset | passed as `--permission-mode` when set |

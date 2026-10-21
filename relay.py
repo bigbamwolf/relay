@@ -19,7 +19,7 @@ ENV_FILE = os.environ.get("RELAY_ENV_FILE", "")
 PERMISSION_MODE = os.environ.get("RELAY_PERMISSION_MODE", "")
 TIMEOUT = int(os.environ.get("RELAY_TIMEOUT", "1800"))
 
-DEFAULT_LADDER = "claude-opus-5,claude-sonnet-5,claude-haiku-4-5-20251001"
+DEFAULT_LADDER = "claude-opus-5-5,claude-sonnet-5-5,claude-haiku-4-5-20251001"
 
 LIMIT_PAT = ["usage limit", "rate limit", "limit reached", "resets at", "overloaded",
              "too many requests", "quota", "529", "rate_limit", "try again later",
